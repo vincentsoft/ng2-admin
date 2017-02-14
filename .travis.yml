@@ -29,8 +29,8 @@ install:
   - yarn
 
 script:
-  - yarn run build:prod
-  - yarn run build:aot
+  - npm run build:prod
+  - npm run build:aot
 
 notifications:
   slack: akveo:q559HckfZMSyZRb803aiLcjH
