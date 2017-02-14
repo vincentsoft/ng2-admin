@@ -29,7 +29,6 @@ install:
   - yarn
 
 script:
-  - yarn run build:prod
   - yarn run build:aot
 
 notifications:
