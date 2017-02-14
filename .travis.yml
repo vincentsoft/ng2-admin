@@ -23,13 +23,13 @@ before_install:
   - export PATH=$HOME/.yarn/bin:$PATH
 
   - npm config set spin false
-  - npm i -g npm@latest
+  - npm i -g npm@4
 
 install:
-  - yarn
+  - npm i
 
 script:
-  - yarn run build:aot
+  - npm run build:aot
 
 notifications:
   slack: akveo:q559HckfZMSyZRb803aiLcjH
